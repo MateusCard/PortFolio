@@ -1,0 +1,748 @@
+/* Estetilização Padrão - CSS */
+* {
+	margin: 0;
+	padding: 0;
+
+    box-sizing: border-box;
+}
+
+/* Body - CSS */
+body{
+    background-color: #cfd6f5;	
+}
+
+/* Header/NavBar - CSS */
+.header {
+    top: 0;
+    margin: 0;
+    width: 100%;
+    z-index: 9999;
+    padding-bottom: 5px;
+
+    position: fixed;
+    text-align: center;
+
+    background-color: #cfd6f5;
+}
+
+/* Logo + Hover - Header/NavBar  */
+.header img{
+    margin-top: -21px;
+    margin-left: 15px;
+
+    float: left;
+
+    transition: 0.45s ease-in-out;
+}
+.header img:hover{
+    transform: scale(1.10);
+    transition: 0.50s ease-in-out;
+}
+
+/* Menu Opções + Hover - Header/NavBar */
+.men-op {
+	display: inline-block;
+    margin: 25px;
+    margin-right: 40px;
+}
+.men-op a {
+	color: #100A49;
+
+	font-size: 18px;
+	font-family: 'Audiowide'; 
+
+	text-decoration: none; 
+}
+.men-op a:hover{
+    color: 	#6b97c7;
+    transition: all 0.2s ease;
+}
+
+/* Menu Opções + Hover (Contato) - Header/NavBar*/
+.men-op-contact {
+	display: inline-block;
+    margin: 25px;
+    margin-right: 40px;
+}   
+.men-op-contact a{
+    color: #100A49;
+
+    padding: 15px;
+
+    font-size: 18px;
+	font-family: 'Audiowide'; 
+
+	text-decoration: none;
+
+    border:2.5px solid  #100A49;
+    border-radius: 32.5px;
+}
+.men-op-contact a:hover{
+    color: #ffffff;
+    background-color: #100A49;
+
+    transition: all 0.25s ease;
+}
+
+
+
+/* Home - CSS */
+.home{
+    margin-bottom: 225px;    
+}
+
+/* Título - Home */
+.titulo{
+    width: 650px;
+    height: 150px;
+
+    padding: 5px;
+    margin-top: 185px;
+    margin-left: 45px;
+}
+.titulo h1{
+    width: 155px;
+    height: 26.5px;
+
+    padding: 0.5px;
+    padding-left: 2.5px;
+    padding-bottom: 5px;
+    
+    font-size: 20px;
+    font-family: 'Montserrat';
+
+}
+.titulo h2{
+    padding-left: 25px;
+    font-size: 32.5px;
+    font-family: 'Orbitron';
+}
+.titulo h3{
+    margin-top: -5px;
+    padding-left: 70px;
+
+    font-size: 60px;
+    font-weight: 300;
+    font-family: 'Orbitron';
+}
+
+/* Container + Redes Sociais - Home */
+.container_redes-sociais{
+    width: 400px;
+    margin-left: 185.5px;
+    margin-bottom: 50px;
+}
+.rd_sc{
+    box-sizing: border-box;
+    align-items: center;
+
+    display: inline-block;
+
+    animation:
+    rdsc 1.5s infinite ease-in-out;
+}
+@keyframes rdsc{
+    50%{
+        transform: translateY(-2.5%);
+    }
+}
+.rd_sc img{
+    transition: 0.45s all ease;
+}
+.rd_sc img:hover{
+    transform: scale(1.25);
+    transition: 0.50s all ease;
+}
+
+/* Imagem Ilustrativa - Home */
+.imagem-ilustrativa{
+    width: 550px;
+    height: 350px;
+    
+    margin-top: -300px;
+    margin-left: 700px;
+}
+.imagem-ilustrativa img{
+    margin-top: -90px;
+}
+
+
+
+/* About - CSS */
+.about{
+    padding-top: 35px;
+    padding-bottom: 115px;
+
+    background-color: #100A49;
+}
+
+/* Foto Perfil + Hover - About */
+.foto-perfil{
+    padding-top: 45px;  
+    margin-left: 61px;   
+}
+.foto-perfil img{
+    border-radius: 50%;  
+    transition: 0.45s all ease;
+}
+.foto-perfil img:hover{
+    transform: scale(1.015);
+    transition: 0.50s all ease;
+}
+
+/* Texto Introdutório - About */
+.txt-intro{
+    width: 700px;
+    height: 350px;
+
+    margin-top: -325px;
+    margin-left: 575px;
+
+    background-color: #cfd6f5;
+    border-radius: 12.5px;
+
+    border: 5.5px solid #5893A4;
+
+}
+.txt-intro p{
+    padding: 18.5px;
+
+    text-align: center;
+
+    font-size: 18.5px;
+    font-family: 'Roboto Mono';
+    word-break: normal;
+}
+
+
+/* Texto Ainda Não Decidido/Texto Experiência e Áreas? - About */
+.txt-nao-decidido{
+    width: 348.5px;
+    height: 345px;
+
+    margin-top: 15px;
+    margin-left: 52.5px;
+    margin-bottom: 250px;
+
+    background-color:  #cfd6f5;
+    border-radius: 12.5px;
+
+    border: 5.5px solid #5893A4;
+}
+.txt-nao-decidido h1{
+    padding: 4.5px;
+    padding-bottom: 4.5px;
+
+    text-align: center;
+
+    font-size: 27.5px;
+    font-family: 'M PLUS Rounded 1c'; 
+}
+.txt-nao-decidido p{
+    padding: 3.5px;
+
+    text-align: center;
+
+    font-size: 14px;
+    font-family: 'Roboto Mono';
+    word-break: normal;
+}
+
+
+/* Texto "Em Andamento" - About */
+.andamento{
+    width: 558.5px;
+    height: 330px;
+
+    margin-top: -585px;
+    margin-left: 650px;    
+
+    background-color: #cfd6f5;
+    border-radius: 12.5px;
+
+    border: 5.5px solid #5893A4;
+}
+.andamento h1{
+    padding: 8.5px;
+    padding-bottom: 5.5px;
+
+    text-align: center;
+
+    font-size: 30.5px;
+    font-family: 'M PLUS Rounded 1c'; 
+}
+.andamento p{
+    padding: 7.5px;
+
+    text-align: center;
+
+    font-size: 17.5px;
+    font-family: 'Roboto Mono';
+    word-break: normal;
+}
+
+
+/* Projects - CSS */
+.projects{
+    padding: 25px;
+    padding-left: 45.5px;
+}
+
+/* Background --> Borda Animada - CSS */
+.background-border{
+    width: 412.5px;
+    height: 500.5px;
+
+    margin-right: 5px;
+    margin-bottom: 12.5px;
+
+    background-image: linear-gradient(90deg, #82C3BF 0%, #5893A4 50.52%, #365D86 100%);
+    border-radius: 20px;
+
+    display: flex;
+    display: inline-block;
+}
+
+/* Título + Introdução - Projects */
+.intro-pro{
+    margin-bottom: 20px;
+
+    text-align: center;
+}
+.intro-pro h1{
+    margin-top: -15px;
+    margin-bottom: 105px;
+
+    font-size: 75px;
+    font-family: 'Orbitron';
+    
+    color:  #100A49;
+}
+.intro-pro span{
+    color:  #100A49;
+
+    font-size: 35px;
+    font-family: 'Ubuntu';
+}
+
+/* Container - Projects */ 
+.container-pro{
+    width: 405px;
+    height: 495px;
+
+    padding: 15px;
+    padding-bottom: 30px;
+
+    margin-right: 15px;
+    margin-bottom: 50px;
+
+    display: flex;
+    display: inline-block;
+
+    
+    border-radius: 20px;                                                                                                                        
+   
+    text-align: center; 
+}
+
+/* Título Projetos - Projects */
+.titulo-pro{
+    color: #000000dc;
+
+    font-size: 15.5px;
+    font-weight: unset;
+    font-family: 'M PLUS Rounded 1c'; 
+}
+
+/* Imagem Demonstrativa + Hover - Projects */
+.img-pro img{
+    border-radius: 5px;
+}
+.img-pro{
+    margin-top: 12.5px;
+    
+    text-align: center;
+    
+    border-radius: 5px;  
+}
+.img-pro img{
+    transition: 0.55s all ease;
+}
+.img-pro img:hover{
+    transform: scale(1.015);
+
+    transition: 0.25s all ease-in-out;
+}
+
+/* Status Projeto (Elemento 0) + Hover - Projects*/
+.element0-pro{
+    float: left;
+
+    margin-top: 3.5px;
+    margin-left: -7.5px;
+
+    position: relative;
+    display: inline-block; 
+}
+.element0-pro img{
+    transition: 0.45s all ease;
+}
+.element0-pro img:hover{
+    transform: scale(1.15);
+    transition: 0.50s all ease;
+}
+ 
+/* Link Github Projeto (Elemento 1) + Hover + KeyFrames - Projects */
+.element1-pro{
+    float: right;
+
+    margin-right: -12.5px;
+
+    animation:
+    elemento1 1.5s infinite ease-in-out;
+}
+@keyframes elemento1{
+    50%{
+        transform: translateY(-12.5%);
+    }
+}
+.element1-pro img{
+    transition: 0.45s all ease;
+}
+.element1-pro img:hover{
+    transform: scale(1.25);
+    transition: 0.50s all ease;
+}
+
+/* Descrição Projeto - Projects */
+.descri-pro{
+    padding-left: -20px;
+    padding-right: -20px;
+    
+    margin-top: 58.5px;
+    text-align: center; 
+
+    font-size: 15.5px;    
+    font-family: 'Roboto Mono';
+}
+.descri-pro span{
+    word-break: normal;
+}
+
+/* Linguagem Programação Projeto (Elemento 2) + KeyFrames - Projects */
+.element2-pro{
+    float: left;
+
+    display: flex;
+
+    margin-top: 20px;
+    margin-left: -12.5px;
+    margin-bottom: -25px;
+}
+.element2-pro img{
+
+    margin-top: -7.5px;
+
+    animation:
+    elemento2 1.5s infinite ease-in-out;
+}
+@keyframes elemento2{
+    50%{
+        transform: translateY(-5.5%);
+    }
+}
+.element2-pro span{
+    font-size: 20px;
+
+    margin-top: 2.5px;
+    margin-left: 2.5px;
+}
+
+
+
+/* Technologies - CSS */
+.technologies{
+    margin-bottom: 50px;
+    padding-bottom: 125px;
+    
+    background-color: #100A49;
+}
+
+/* Título + Introdução - Technologies */
+.tech-titulo{
+    margin-bottom: 20px;
+
+    text-align: center;
+}
+.tech-titulo h1{
+    color:  #cfd6f5;
+
+    margin-top: -15px;
+    margin-bottom: 105px;
+    padding-top: 15px;
+    
+    font-size: 75px;
+    font-family: 'Orbitron';
+}
+.tech-titulo span{
+    color:  #cfd6f5;
+
+    margin-left: -707.5px;
+
+    font-size: 28.5px;
+    font-family: 'Ubuntu';
+}
+
+/* Texto Indicativo - Technologies */
+.tech-txt{
+    width: 558.5px;
+    height: 350px;
+
+    margin-left: 650px; 
+
+    background-color: #cfd6f5;
+    border-radius: 12.5px;
+
+    border: 5.5px solid #5893A4;
+}
+.tech-txt h1{
+    padding: 4.5px;
+    padding-bottom: 0.5px;
+
+    text-align: center;
+
+    font-size: 30.5px;
+    font-family: 'M PLUS Rounded 1c'; 
+}
+.tech-txt p{
+    padding: 7.5px;
+
+    text-align: center;
+
+    font-size: 18.5px;
+    font-family: 'Roboto Mono';
+    word-break: normal;
+}
+
+
+
+/* Container - Technologies */
+.tech-icons{
+    width: 550px;
+    height: 350px;
+
+    margin-top: -350px;
+    margin-left: 45.5px;
+
+    padding-top: 15px;
+    padding-left: 12.5px;
+}
+
+/* Ícones Tecnologias + Hover - Technologies */
+.technologies img{
+    padding-left: 4.5px;
+    padding-bottom: 18.5px;
+
+    transition: 0.45s all ease;
+}
+.technologies img:hover{
+    transform: scale(1.25);
+    transition: 0.50s all ease;
+}
+
+
+
+/* Contact - CSS */
+.contact{
+    padding-bottom: 100px;
+}
+
+/* Titulo + Introdução - Contact */
+.contato-titulo h1{
+    color: #100A49;
+    margin-left: 56.5px;
+
+    font-size: 55px;
+    font-family: 'Orbitron';
+}
+.contato-titulo span{
+    color: #100A49;
+    margin-left: 45.5px;
+    
+    font-size: 26.5px;
+    font-family: 'Ubuntu';
+}
+
+/* Formulário - Contact */
+.contato-form{
+    margin-top: 35px;
+}
+
+/* Forms: Label + Focus - Contact */
+.contato-form label{
+    color: #100A49;
+    margin-left: 48.5px;
+
+    font-size: 20.5px;
+    font-weight: bold;
+    font-family: 'Ubuntu'; 
+}
+
+/* Forms: Input + Focus - Contact */
+.contato-form input{
+    margin-top: 2px;
+    margin-left: 46.5px;
+    margin-bottom: 12.5px;
+
+    border: 1.5px solid  #1e60a7;
+    border-radius: 4.5px;
+}
+
+/* Forms: PlaceHolder - Contact */
+::placeholder{
+    font-size: 15.5px;
+}
+
+/* Input = Text - Contact */
+input[type=text]{
+    width: 900px;
+    height: 30.5px;
+
+    padding: 2.5px;
+    padding-left: 4.5px;
+    
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+input[type=text]:focus{
+    border: 2.5px solid #100A49;
+}
+.mensagem-div input[type=text]{
+    width: 825px;
+    
+    padding-top: 15px;
+    padding-left: 4.5px;
+    padding-bottom: 205px;  
+}
+
+/* Input = Email - Contact */
+input[type=email]{
+    width: 900px;
+    height: 30.5px;
+
+    padding: 2.5px;
+    padding-left: 4.5px;
+    
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+input[type=email]:focus{
+    border: 2.5px solid #100A49;
+}
+
+/* Botão Enviar + Hover - Contact */
+.enviar{
+    color: #1e60a7;
+
+    padding: 10.5px 22.5px;
+    margin-left: 46px;
+
+    cursor: pointer;
+
+    font-size: 17.5px;
+    font-weight: bold;
+    font-family: 'Ubuntu'; 
+
+    border: 1.8px solid #1e60a7;
+    border-radius: 4.5px;
+    box-shadow: 0 6px 10px 0 rgba(0,0,0,0.2), 0 6px 10px 0 rgba(0,0,0,0.19);
+
+    transition-duration: 0.4s;
+}
+.enviar:hover{
+    color: #ffffff;
+
+    background-color: #100A49;
+
+    border: 1.8px solid #100A49;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);  
+}
+
+/* Frase "Ainda em construção" - Contact */
+.contact h2{
+    color: #100A49;
+
+    margin-top: -35px;
+    margin-left: 225px;
+
+    font-size: 25px;
+    font-family: 'Ubuntu'; 
+}
+
+
+
+/* Rodapé - CSS */
+.rodape{
+    padding-top: 35px;
+    padding-bottom: 26.5px;
+
+    background-color: #100A49;
+}
+
+/* Logo PortFolio + Hover - Rodapé */
+.rodape_logo{
+    margin-left: 576.5px;
+    margin-bottom: -15px;
+}
+.rodape_logo img{
+    transition: 0.45s ease-in-out;
+}
+.rodape_logo img:hover{
+    transform: scale(1.05);
+    transition: 0.50s ease-in-out;
+}
+
+
+
+/* Frase "Em Andamento" - Rodapé */
+.txt_andmnt p{
+    color: #cfd6f5;
+
+    margin-bottom: 22.5px;
+    font-size: 28.5px;
+
+    text-align: center;
+
+    font-family: 'Ubuntu'; 
+}
+
+/* Container + Redes Sociais - Rodapé */
+.container_redes-sociais2{
+    width: 400px;
+    margin-left: 523.5px;
+    margin-bottom: 45px;  
+}
+.rd_sc2{
+    box-sizing: border-box;
+    align-items: center;
+
+    display: inline-block;
+}
+.rd_sc2 img{
+    margin-right: 12.5px;
+    transition: 0.45s all ease;
+}
+.rd_sc2 img:hover{
+    transform: scale(1.25);
+    transition: 0.50s all ease;
+}
+
+/* "Autor" + Frase "Direitos Reservados" - Rodapé */
+.txt_autor p{
+    color: #cfd6f5;
+    margin-top: -25.5px;
+
+    font-size: 20.5px;
+    text-align: center;
+    font-family: 'M PLUS Rounded 1c'; 
+}

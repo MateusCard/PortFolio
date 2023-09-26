@@ -1,0 +1,14 @@
+========= TAREFAS/OBJETIVOS =========
+- Por Versão Português - Inglês
+
+- Organizar HTML/CSS - Com Comentários
+! --------- Por Font-Family Com Mais de Uma Opção
+
+- Adicionar Licensa/Autor Para As Imagens?
+========================================================================
+- Adicionar Textos
+- Adicionar Tecnologias
+- Adicionar README + Organizar Tudo Para Upload No GitHub
+========================================================================
+-----> TAREFAS OPCIONAIS:
+- Adicionar "Mensagem" De Status Para Os Projetos - Projects
