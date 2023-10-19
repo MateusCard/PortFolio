@@ -9,7 +9,6 @@
 👍 Já Incluído (Inserido):
 - [x] Estrutura do PortFolio Com Html/Css
 - [x] Disponibildade de Acessar Redes Sociais para Contato
-- [x] Disponibilidade de Projetos Atuais e a Opção de Verificar Projetos Futuros 
 
 🕑 Próximas Atualizações:
 - [ ] Disponibilizar Currículo Para Download
@@ -25,7 +24,7 @@
 ![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
 
 ## 📞 Contato
-- mateus.novaes.15062004@gmail.com // [LinkedIn] (https://www.linkedin.com/in/mateus-cardoso-b60576291/)  
+- mateus.novaes.15062004@gmail.com // [LinkedIn](https://www.linkedin.com/in/mateus-cardoso-b60576291/)  
 
 ## 📑 Licença
 
