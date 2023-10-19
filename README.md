@@ -1,4 +1,4 @@
-#  [My PortFolio].(https://mateuscardoso.netlify.app/)
+# 💿 [My PortFolio].(https://mateuscardoso.netlify.app/)
 
 <h1>🔎 PortFolio Em Desenvolvimento!</h1> <br>
 
@@ -25,7 +25,7 @@
 ![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
 
 ## 📞 Contato
-- mateus.novaes.15062004@gmail.com // [LinkedIn] (https://www.linkedin.com/in/mateus-cardoso-b60576291/) // [TeleGram] (https://t.me/mateus_card)
+- mateus.novaes.15062004@gmail.com // [LinkedIn] (https://www.linkedin.com/in/mateus-cardoso-b60576291/) // 
 
 ## 📑 Licença
 
