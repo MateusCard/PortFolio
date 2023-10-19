@@ -1,4 +1,4 @@
-# 💿 [My PortFolio](https://mateuscardoso.netlify.app/)
+# [My PortFolio](https://mateuscardoso.netlify.app/)
 
 <h1>🔎 PortFolio Em Desenvolvimento!</h1> <br>
 
