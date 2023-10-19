@@ -23,6 +23,9 @@ body{
     text-align: center;
 
     background-color: #cfd6f5;
+    
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.3);
+
 }
 
 /* Logo + Hover - Header/NavBar  */
@@ -41,7 +44,10 @@ body{
 
 /* Menu Opções + Hover - Header/NavBar */
 .men-op {
+    padding-top: 3.5px;
+
 	display: inline-block;
+
     margin: 25px;
     margin-right: 40px;
 }
@@ -49,7 +55,7 @@ body{
 	color: #100A49;
 
 	font-size: 18px;
-	font-family: 'Audiowide'; 
+	font-family: 'Audiowide', sans-serif; 
 
 	text-decoration: none; 
 }
@@ -70,7 +76,7 @@ body{
     padding: 15px;
 
     font-size: 18px;
-	font-family: 'Audiowide'; 
+	font-family: 'Audiowide', sans-serif; 
 
 	text-decoration: none;
 
@@ -109,13 +115,14 @@ body{
     padding-bottom: 5px;
     
     font-size: 20px;
-    font-family: 'Montserrat';
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
 
 }
 .titulo h2{
     padding-left: 25px;
     font-size: 32.5px;
-    font-family: 'Orbitron';
+    font-family: 'Orbitron', sans-serif;
 }
 .titulo h3{
     margin-top: -5px;
@@ -123,7 +130,7 @@ body{
 
     font-size: 60px;
     font-weight: 300;
-    font-family: 'Orbitron';
+    font-family: 'Orbitron', sans-serif;
 }
 
 /* Container + Redes Sociais - Home */
@@ -171,9 +178,9 @@ body{
 /* About - CSS */
 .about{
     padding-top: 35px;
-    padding-bottom: 115px;
+    padding-bottom: 120px;
 
-    background-color: #100A49;
+    background-color: #20186d;
 }
 
 /* Foto Perfil + Hover - About */
@@ -198,10 +205,10 @@ body{
     margin-top: -325px;
     margin-left: 575px;
 
-    background-color: #cfd6f5;
+    background-color: #c0cafc;
     border-radius: 12.5px;
 
-    border: 5.5px solid #5893A4;
+    border: 5.5px solid #3392aa;
 
 }
 .txt-intro p{
@@ -209,77 +216,95 @@ body{
 
     text-align: center;
 
-    font-size: 18.5px;
-    font-family: 'Roboto Mono';
+    font-size: 19.5px;
+    font-family: 'Roboto Mono', sans-serif;
     word-break: normal;
 }
-
 
 /* Texto Ainda Não Decidido/Texto Experiência e Áreas? - About */
-.txt-nao-decidido{
+.andamento{
     width: 348.5px;
-    height: 345px;
+    height: 335px;
 
     margin-top: 15px;
-    margin-left: 52.5px;
+    margin-left: 62.5px;
     margin-bottom: 250px;
 
-    background-color:  #cfd6f5;
+    background-color: #c0cafc;
     border-radius: 12.5px;
 
-    border: 5.5px solid #5893A4;
+    border: 5.5px solid #3392aa;
 }
-.txt-nao-decidido h1{
+.andamento h1{
     padding: 4.5px;
-    padding-bottom: 4.5px;
+    padding-bottom: 10.5px;
 
-    text-align: center;
-
-    font-size: 27.5px;
-    font-family: 'M PLUS Rounded 1c'; 
+    font-size: 23.5px;
+    font-family: 'M PLUS Rounded 1c', sans-serif; 
 }
-.txt-nao-decidido p{
+.andamento h2{
+    padding: 4.5px;
+    padding-bottom: 8.5px;
+
+    text-align: left;
+
+    font-size: 20.5px;
+    font-family: 'Ubuntu', sans-serif; 
+}
+.andamento h3{
+    padding: 4.5px;
+    padding-bottom: 8.5px;
+
+    text-align: left;
+
+    font-size: 20.5px;
+    font-family: 'Ubuntu', sans-serif; 
+}
+.andamento p{
     padding: 3.5px;
+    padding-bottom: 17.5px;
+    
+    text-align: left;
 
-    text-align: center;
-
-    font-size: 14px;
-    font-family: 'Roboto Mono';
+    font-size: 18px;
+    font-family: 'Roboto Mono', sans-serif;
     word-break: normal;
 }
 
-
 /* Texto "Em Andamento" - About */
-.andamento{
-    width: 558.5px;
-    height: 330px;
+.atualmente{
+    width: 610.5px;
+    height: 302.5px;
 
     margin-top: -585px;
-    margin-left: 650px;    
+    margin-left: 625px;    
 
-    background-color: #cfd6f5;
+    background-color: #c0cafc;
     border-radius: 12.5px;
 
-    border: 5.5px solid #5893A4;
+    border: 5.5px solid #3392aa;
 }
-.andamento h1{
+.atualmente h1{
     padding: 8.5px;
-    padding-bottom: 5.5px;
+    padding-bottom: 12.5px;
 
     text-align: center;
 
     font-size: 30.5px;
-    font-family: 'M PLUS Rounded 1c'; 
+    font-family: 'M PLUS Rounded 1c', sans-serif; 
 }
-.andamento p{
+.atualmente p{
     padding: 7.5px;
+    padding-left: 15.5px;
+    padding-bottom: 22.5px;
 
-    text-align: center;
+    text-align: left;
 
-    font-size: 17.5px;
-    font-family: 'Roboto Mono';
+    font-size: 18.5px;
+    font-family: 'Roboto Mono', sans-serif;
     word-break: normal;
 }
+
 
 
 /* Projects - CSS */
@@ -306,7 +331,6 @@ body{
 /* Título + Introdução - Projects */
 .intro-pro{
     margin-bottom: 20px;
-
     text-align: center;
 }
 .intro-pro h1{
@@ -314,7 +338,7 @@ body{
     margin-bottom: 105px;
 
     font-size: 75px;
-    font-family: 'Orbitron';
+    font-family: 'Orbitron', sans-serif;
     
     color:  #100A49;
 }
@@ -322,7 +346,7 @@ body{
     color:  #100A49;
 
     font-size: 35px;
-    font-family: 'Ubuntu';
+    font-family: 'Ubuntu', sans-serif;
 }
 
 /* Container - Projects */ 
@@ -338,10 +362,8 @@ body{
 
     display: flex;
     display: inline-block;
-
     
     border-radius: 20px;                                                                                                                        
-   
     text-align: center; 
 }
 
@@ -351,7 +373,7 @@ body{
 
     font-size: 15.5px;
     font-weight: unset;
-    font-family: 'M PLUS Rounded 1c'; 
+    font-family: 'M PLUS Rounded 1c', sans-serif; 
 }
 
 /* Imagem Demonstrativa + Hover - Projects */
@@ -362,7 +384,6 @@ body{
     margin-top: 12.5px;
     
     text-align: center;
-    
     border-radius: 5px;  
 }
 .img-pro img{
@@ -370,7 +391,6 @@ body{
 }
 .img-pro img:hover{
     transform: scale(1.015);
-
     transition: 0.25s all ease-in-out;
 }
 
@@ -395,7 +415,6 @@ body{
 /* Link Github Projeto (Elemento 1) + Hover + KeyFrames - Projects */
 .element1-pro{
     float: right;
-
     margin-right: -12.5px;
 
     animation:
@@ -423,7 +442,7 @@ body{
     text-align: center; 
 
     font-size: 15.5px;    
-    font-family: 'Roboto Mono';
+    font-family: 'Roboto Mono', sans-serif;
 }
 .descri-pro span{
     word-break: normal;
@@ -432,7 +451,6 @@ body{
 /* Linguagem Programação Projeto (Elemento 2) + KeyFrames - Projects */
 .element2-pro{
     float: left;
-
     display: flex;
 
     margin-top: 20px;
@@ -440,7 +458,6 @@ body{
     margin-bottom: -25px;
 }
 .element2-pro img{
-
     margin-top: -7.5px;
 
     animation:
@@ -453,7 +470,6 @@ body{
 }
 .element2-pro span{
     font-size: 20px;
-
     margin-top: 2.5px;
     margin-left: 2.5px;
 }
@@ -465,7 +481,7 @@ body{
     margin-bottom: 50px;
     padding-bottom: 125px;
     
-    background-color: #100A49;
+    background-color: #20186d;
 }
 
 /* Título + Introdução - Technologies */
@@ -482,7 +498,7 @@ body{
     padding-top: 15px;
     
     font-size: 75px;
-    font-family: 'Orbitron';
+    font-family: 'Orbitron', sans-serif;
 }
 .tech-titulo span{
     color:  #cfd6f5;
@@ -490,57 +506,76 @@ body{
     margin-left: -707.5px;
 
     font-size: 28.5px;
-    font-family: 'Ubuntu';
+    font-family: 'Ubuntu', sans-serif;
 }
 
 /* Texto Indicativo - Technologies */
 .tech-txt{
-    width: 558.5px;
-    height: 350px;
+    width: 505.5px;
+    height: 250px;
 
-    margin-left: 650px; 
+    margin-left: 725px; 
 
-    background-color: #cfd6f5;
+    background-color: #c0cafc;
     border-radius: 12.5px;
 
-    border: 5.5px solid #5893A4;
+    border: 5.8px solid #3392aa;
 }
 .tech-txt h1{
     padding: 4.5px;
+    padding-top: 6.5px;
     padding-bottom: 0.5px;
 
     text-align: center;
+    font-weight: 600;
 
-    font-size: 30.5px;
-    font-family: 'M PLUS Rounded 1c'; 
+    font-size: 32.5px;
+    font-family: 'Montserrat', sans-serif; 
 }
 .tech-txt p{
     padding: 7.5px;
+    padding-top: 22.5px;
 
     text-align: center;
 
-    font-size: 18.5px;
-    font-family: 'Roboto Mono';
-    word-break: normal;
+    font-size: 22.5px;
+    font-family: 'Roboto Mono', sans-serif;
+    word-break: normal;   
 }
+.tech-txt h2{
+    padding: 4.5px;
+    padding-top: 35.5px;
+    
+    text-align: center;
+    font-weight: 400;
 
-
+    font-size: 30.5px;
+    font-family: 'Montserrat', sans-serif; 
+}
 
 /* Container - Technologies */
 .tech-icons{
     width: 550px;
-    height: 350px;
+    height: 245px;
 
-    margin-top: -350px;
+    margin-top: -250.5px;
     margin-left: 45.5px;
+    margin-bottom: 85px;
 
     padding-top: 15px;
     padding-left: 12.5px;
+
+    background-color: #c0cafc;
+
+    border: 5.8px solid #3392aa;
+    border-radius: 12.5px;
 }
 
 /* Ícones Tecnologias + Hover - Technologies */
 .technologies img{
-    padding-left: 4.5px;
+    cursor: pointer;
+    
+    padding-left: 2.5px;
     padding-bottom: 18.5px;
 
     transition: 0.45s all ease;
@@ -563,14 +598,14 @@ body{
     margin-left: 56.5px;
 
     font-size: 55px;
-    font-family: 'Orbitron';
+    font-family: 'Orbitron', sans-serif;
 }
 .contato-titulo span{
     color: #100A49;
     margin-left: 45.5px;
     
     font-size: 26.5px;
-    font-family: 'Ubuntu';
+    font-family: 'Ubuntu', sans-serif;
 }
 
 /* Formulário - Contact */
@@ -585,7 +620,7 @@ body{
 
     font-size: 20.5px;
     font-weight: bold;
-    font-family: 'Ubuntu'; 
+    font-family: 'Ubuntu', sans-serif; 
 }
 
 /* Forms: Input + Focus - Contact */
@@ -651,7 +686,7 @@ input[type=email]:focus{
 
     font-size: 17.5px;
     font-weight: bold;
-    font-family: 'Ubuntu'; 
+    font-family: 'Ubuntu', sans-serif; 
 
     border: 1.8px solid #1e60a7;
     border-radius: 4.5px;
@@ -676,7 +711,7 @@ input[type=email]:focus{
     margin-left: 225px;
 
     font-size: 25px;
-    font-family: 'Ubuntu'; 
+    font-family: 'Ubuntu', sans-serif; 
 }
 
 
@@ -686,7 +721,7 @@ input[type=email]:focus{
     padding-top: 35px;
     padding-bottom: 26.5px;
 
-    background-color: #100A49;
+    background-color: #20186d;
 }
 
 /* Logo PortFolio + Hover - Rodapé */
@@ -702,18 +737,16 @@ input[type=email]:focus{
     transition: 0.50s ease-in-out;
 }
 
-
-
-/* Frase "Em Andamento" - Rodapé */
-.txt_andmnt p{
+/* Frase - Rodapé */
+.txt-rodape p{
     color: #cfd6f5;
 
     margin-bottom: 22.5px;
-    font-size: 28.5px;
+    font-size: 22.5px;
 
     text-align: center;
 
-    font-family: 'Ubuntu'; 
+    font-family: 'Montserrat', sans-serif; 
 }
 
 /* Container + Redes Sociais - Rodapé */
@@ -744,5 +777,5 @@ input[type=email]:focus{
 
     font-size: 20.5px;
     text-align: center;
-    font-family: 'M PLUS Rounded 1c'; 
+    font-family: 'M PLUS Rounded 1c', sans-serif; 
 }
